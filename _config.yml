@@ -1,0 +1,12 @@
+# Site settings
+title: /dev
+email: sun.ilth.aha@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Recording random thoughts, lessons learned etc ...
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://sthaha.github.io" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  sthaha
+
+# Build settings
+markdown: kramdown
