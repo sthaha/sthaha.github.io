@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Git: handling whitespace changes"
-date:   2016-11-25 17:59:36
+date:   2016-12-06 17:59:36
 categories: jekyll update
 ---
 Some of the git aliases that I frequently use and that other find useful are
