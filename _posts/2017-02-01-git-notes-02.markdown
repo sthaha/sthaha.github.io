@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Git: Files in a commit"
+date:   Wed 01/Feb/17 09:32:10
+categories: git notes
+---
+
+### Show files in a commit ###
+
+E.g show all files in the commit pointed by HEAD
+
+{% highlight bash %}
+  git diff-tree --no-commit-id --name-only -r HEAD
+{% endhighlight %}
+
+
+This is quite handy when you want to open all files modified by a commit in
+your editor
+
+{% highlight bash %}
+    vim $( git diff-tree --no-commit-id --name-only -r HEAD )
+{% endhighlight %}
+
