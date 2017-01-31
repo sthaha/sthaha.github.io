@@ -2,10 +2,10 @@
 layout: post
 title:  "Git: handling whitespace changes"
 date:   2016-12-06 17:59:36
-categories: jekyll update
+categories: git notes
 ---
-Some of the git aliases that I frequently use and that other find useful are
-below.
+Some of the git aliases that I frequently use to handle
+whitespace changes are below.
 
 
 ### Add everything but the whitespace changes ###
@@ -29,4 +29,3 @@ below.
   }; f"
   aws =!git add-only-whitespace
 {% endhighlight %}
-
