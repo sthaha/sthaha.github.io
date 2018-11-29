@@ -9,3 +9,5 @@ github_username:  sthaha
 
 # Build settings
 markdown: kramdown
+
+theme: jekyll-theme-slate
